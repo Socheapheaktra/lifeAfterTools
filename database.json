@@ -1,0 +1,634 @@
+{
+    "workable": [
+        {
+            "weapon": [
+                {
+                    "name": "Gunpowder",
+                    "components": [
+                        {
+                            "name": "Wood",
+                            "amount": 600
+                        },
+                        {
+                            "name": "Stone",
+                            "amount": 150
+                        },
+                        {
+                            "name": "Flint",
+                            "amount": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "Hexagon Nail",
+                    "components": [
+                        {
+                            "name": "Pig Iron",
+                            "amount": 2
+                        },
+                        {
+                            "name": "Hardwood Vine",
+                            "amount": 4
+                        },
+                        {
+                            "name": "Bone",
+                            "amount": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "Pig Iron",
+                    "components": [
+                        {
+                            "name": "Iron Ore",
+                            "amount": 2
+                        },
+                        {
+                            "name": "Twig",
+                            "amount": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "Iron Casting",
+                    "components": [
+                        {
+                            "name": "Tin Ore",
+                            "amount": 4
+                        },
+                        {
+                            "name": "Iron Ore",
+                            "amount": 4
+                        },
+                        {
+                            "name": "Wood Core",
+                            "amount": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "Screw",
+                    "components": [
+                        {
+                            "name": "Iron Casting",
+                            "amount": 1
+                        },
+                        {
+                            "name": "Little Branch",
+                            "amount": 4
+                        },
+                        {
+                            "name": "Hemp Seed",
+                            "amount": 1
+                        },
+                        {
+                            "name": "Sulfur",
+                            "amount": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "Smokeless Gunpowder",
+                    "components": [
+                        {
+                            "name": "Gunpowder",
+                            "amount": 1
+                        },
+                        {
+                            "name": "Potassium Nitrate",
+                            "amount": 3
+                        },
+                        {
+                            "name": "Kyanite",
+                            "amount": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "Hard Aluminum Alloy",
+                    "components": [
+                        {
+                            "name": "Aluminum Ore",
+                            "amount": 5
+                        },
+                        {
+                            "name": "Tin Ore",
+                            "amount": 5
+                        },
+                        {
+                            "name": "Old Cypress",
+                            "amount": 9
+                        },
+                        {
+                            "name": "Tree Oil",
+                            "amount": 5
+                        }
+                    ]
+                },
+                {
+                    "name": "Steel",
+                    "components": [
+                        {
+                            "name": "Pig Iron",
+                            "amount": 2
+                        },
+                        {
+                            "name": "Silicon",
+                            "amount": 3
+                        },
+                        {
+                            "name": "Tungsten Rod",
+                            "amount": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Steel Pipe",
+                    "components": [
+                        {
+                            "name": "Copper Ore",
+                            "amount": 5
+                        },
+                        {
+                            "name": "Aluminum Ore",
+                            "amount": 5
+                        },
+                        {
+                            "name": "Boxwood",
+                            "amount": 9
+                        },
+                        {
+                            "name": "Galena",
+                            "amount": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "Spring",
+                    "components": [
+                        {
+                            "name": "Silver Ore",
+                            "amount": 6
+                        },
+                        {
+                            "name": "Pyrargyrite",
+                            "amount": 3
+                        },
+                        {
+                            "name": "Copper Ore",
+                            "amount": 6
+                        },
+                        {
+                            "name": "Steel Bar",
+                            "amount": 1
+                        },
+                        {
+                            "name": "Old Oak",
+                            "amount": 12
+                        }
+                    ]
+                },
+                {
+                    "name": "Engineering Plastic",
+                    "components": [
+                        {
+                            "name": "Plastic",
+                            "amount": 2
+                        },
+                        {
+                            "name": "Silver Ore",
+                            "amount": 6
+                        },
+                        {
+                            "name": "Beast Blood",
+                            "amount": 3
+                        },
+                        {
+                            "name": "Fiberglass",
+                            "amount": 1
+                        },
+                        {
+                            "name": "Birch Root",
+                            "amount": 7
+                        }
+                    ]
+                },
+                {
+                    "name": "Weapon Part",
+                    "components": [
+                        {
+                            "name": "Redwood",
+                            "amount": 13
+                        },
+                        {
+                            "name": "Steel",
+                            "amount": 1
+                        },
+                        {
+                            "name": "Gold Ore",
+                            "amount": 7
+                        },
+                        {
+                            "name": "Rare-earth Ore",
+                            "amount": 4
+                        },
+                        {
+                            "name": "Beast Hoof",
+                            "amount": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "Titanium Alloy",
+                    "components": [
+                        {
+                            "name": "Cedar leaves",
+                            "amount": 7
+                        },
+                        {
+                            "name": "Rare-earth Ore",
+                            "amount": 4
+                        },
+                        {
+                            "name": "Beast Spine",
+                            "amount": 2
+                        },
+                        {
+                            "name": "Spring",
+                            "amount": 1
+                        },
+                        {
+                            "name": "Hard Aluminum Alloy",
+                            "amount": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Amalgam",
+                    "components": [
+                        {
+                            "name": "Quicksilver",
+                            "amount": 8
+                        },
+                        {
+                            "name": "Gold Ore",
+                            "amount": 8
+                        },
+                        {
+                            "name": "Copper Ore",
+                            "amount": 8
+                        },
+                        {
+                            "name": "Kenaf Bast",
+                            "amount": 2
+                        },
+                        {
+                            "name": "Hard Aluminum Alloy",
+                            "amount": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "High Temperature Alloy",
+                    "components": [
+                        {
+                            "name": "Kamacite",
+                            "amount": 8
+                        },
+                        {
+                            "name": "Beast Tail",
+                            "amount": 4
+                        },
+                        {
+                            "name": "Elm Bark",
+                            "amount": 8
+                        },
+                        {
+                            "name": "Pyrite",
+                            "amount": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "Low-temp Steel",
+                    "components": [
+                        {
+                            "name": "Steel",
+                            "amount": 2
+                        },
+                        {
+                            "name": "Quicksilver",
+                            "amount": 8
+                        },
+                        {
+                            "name": "Spinel",
+                            "amount": 4
+                        },
+                        {
+                            "name": "Pinecone",
+                            "amount": 8
+                        },
+                        {
+                            "name": "Rare-earth Ore",
+                            "amount": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "Medium-carbon Steel",
+                    "components": [
+                        {
+                            "name": "Dogbane Stalk",
+                            "amount": 2
+                        },
+                        {
+                            "name": "Elm Leaves",
+                            "amount": 15
+                        },
+                        {
+                            "name": "Spinel",
+                            "amount": 4
+                        },
+                        {
+                            "name": "Pyrite",
+                            "amount": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "Soft Magnetic Alloy",
+                    "components": [
+                        {
+                            "name": "Bornite",
+                            "amount": 6
+                        },
+                        {
+                            "name": "Volcanic Ash",
+                            "amount": 6
+                        },
+                        {
+                            "name": "Camphor",
+                            "amount": 23
+                        },
+                        {
+                            "name": "Bugbane",
+                            "amount": 6
+                        }
+                    ]
+                },
+                {
+                    "name": "Special Cast Iron",
+                    "components": [
+                        {
+                            "name": "Bornite",
+                            "amount": 6
+                        },
+                        {
+                            "name": "Camphor Leaf",
+                            "amount": 12
+                        },
+                        {
+                            "name": "Wood Ash",
+                            "amount": 12
+                        },
+                        {
+                            "name": "Beast Antler",
+                            "amount": 3
+                        },
+                        {
+                            "name": "Strong Steel",
+                            "amount": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "Resistance Alloy",
+                    "components": [
+                        {
+                            "name": "White Birch",
+                            "amount": 28
+                        },
+                        {
+                            "name": "Phosphorite Ore",
+                            "amount": 14
+                        },
+                        {
+                            "name": "Wood Ash",
+                            "amount": 15
+                        },
+                        {
+                            "name": "Soft Hide",
+                            "amount": 2
+                        },
+                        {
+                            "name": "Bone Spur",
+                            "amount": 8
+                        }
+                    ]
+                },
+                {
+                    "name": "Carbon Steel",
+                    "components": [
+                        {
+                            "name": "White Birch",
+                            "amount": 24
+                        },
+                        {
+                            "name": "Apatite",
+                            "amount": 7
+                        },
+                        {
+                            "name": "Tentacle",
+                            "amount": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "Amorphous Alloy",
+                    "components": [
+                        {
+                            "name": "Tung Tree",
+                            "amount": 28
+                        },
+                        {
+                            "name": "Cerussite",
+                            "amount": 14
+                        },
+                        {
+                            "name": "White Rabbit Fur",
+                            "amount": 4
+                        },
+                        {
+                            "name": "Venomous Bee Stinger",
+                            "amount": 2
+                        },
+                        {
+                            "name": "Soft Shell",
+                            "amount": 8
+                        }
+                    ]
+                },
+                {
+                    "name": "Weathering Steel",
+                    "components": [
+                        {
+                            "name": "Tung Tree",
+                            "amount": 24
+                        },
+                        {
+                            "name": "Barite",
+                            "amount": 7
+                        },
+                        {
+                            "name": "Tough Pincher",
+                            "amount": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "Silicon Manganese",
+                    "components": [
+                        {
+                            "name": "Wutong Wood",
+                            "amount": 28
+                        },
+                        {
+                            "name": "Manganese Ore",
+                            "amount": 14
+                        },
+                        {
+                            "name": "Flexible Silk Cocoon",
+                            "amount": 2
+                        },
+                        {
+                            "name": "Tentacle",
+                            "amount": 8
+                        },
+                        {
+                            "name": "White Rabbit Fur",
+                            "amount": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "Bulb Flat Steel",
+                    "components": [
+                        {
+                            "name": "Acacia",
+                            "amount": 7
+                        },
+                        {
+                            "name": "Flourite",
+                            "amount": 7
+                        },
+                        {
+                            "name": "Poison Gland",
+                            "amount": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "Allumen",
+                    "components": [
+                        {
+                            "name": "Mahogany",
+                            "amount": 28
+                        },
+                        {
+                            "name": "Zinc Ore",
+                            "amount": 14
+                        },
+                        {
+                            "name": "Duvernoy's Gland",
+                            "amount": 2
+                        },
+                        {
+                            "name": "Barbs",
+                            "amount": 8
+                        },
+                        {
+                            "name": "White Rabbit Fur",
+                            "amount": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "Structural Steel",
+                    "components": [
+                        {
+                            "name": "Zinc Ore",
+                            "amount": 12
+                        },
+                        {
+                            "name": "Smithsonite",
+                            "amount": 7
+                        },
+                        {
+                            "name": "Sharp Fang",
+                            "amount": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "Nickel Titanium Alloy",
+                    "components": [
+                        {
+                            "name": "Red Coral",
+                            "amount": 28
+                        },
+                        {
+                            "name": "Nickel Ore",
+                            "amount": 14
+                        },
+                        {
+                            "name": "Ammonite Fossil",
+                            "amount": 2
+                        },
+                        {
+                            "name": "Sucking Disc",
+                            "amount": 8
+                        },
+                        {
+                            "name": "White Rabbit Fur",
+                            "amount": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "Silicon Steel",
+                    "components": [
+                        {
+                            "name": "Nickel Ore",
+                            "amount": 12
+                        },
+                        {
+                            "name": "Hydrothermal Mineral",
+                            "amount": 7
+                        },
+                        {
+                            "name": "Ink Sack",
+                            "amount": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "armor": [
+
+            ]
+        }
+    ],
+    "food": [
+        {
+            "gather": [
+
+            ]
+        },
+        {
+            "combat": [
+
+            ]
+        }
+    ]
+}
