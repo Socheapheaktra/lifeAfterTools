@@ -1,0 +1,70 @@
+#: import ElevatedCard libs.components.card
+<MainScreen>:
+    id: main_win
+    orientation: "vertical"
+    spacing: 50
+
+    MDTopAppBar:
+        id: toolbar
+        title: "LifeAfter Tool by YeeAhNis"
+
+    MDScreenManager:
+        id: scrn_mngr
+
+        MDScreen:
+            id: home_scrn
+            name: "home_scrn"
+
+            MDBoxLayout:
+                orientation: "vertical"
+                padding: 50, 50
+                spacing: 50
+
+                ElevatedCard:
+                    orientation: "vertical"
+                    padding: 50, 50
+                    spacing: 20
+                    on_release:
+                        root.goto_crafting_screen()
+
+                    MDLabel:
+                        text: "Crafting Recipe"
+                        halign: "center"
+                        font_style: "H2"
+
+                ElevatedCard:
+                    orientation: "vertical"
+                    padding: 50, 50
+                    spacing: 20
+
+                    MDLabel:
+                        text: "Food Recipe"
+                        halign: "center"
+                        font_style: "H2"
+
+                ElevatedCard:
+                    orientation: "vertical"
+                    padding: 50, 50
+                    spacing: 20
+
+                    MDLabel:
+                        text: "Profit Calculator"
+                        halign: "center"
+                        font_style: "H2"
+
+        MDScreen:
+            id: crafting_scrn
+            name: "crafting_scrn"
+
+        MDScreen:
+            id: food_scrn
+            name: "food_scrn"
+
+        MDScreen:
+            id: calculator_scrn
+            name: "calculator_scrn"
+
+    MDBoxLayout:
+        size_hint_y: None
+        height: toolbar.height
+        md_bg_color: app.theme_cls.primary_color

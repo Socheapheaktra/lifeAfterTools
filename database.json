@@ -1,7 +1,6 @@
 {
-    "workable": [
-        {
-            "weapon": [
+    "workable": {
+        "weapon": [
                 {
                     "name": "Gunpowder",
                     "components": [
@@ -611,14 +610,576 @@
                         }
                     ]
                 }
-            ]
-        },
-        {
-            "armor": [
-
-            ]
-        }
-    ],
+            ],
+        "armor": [
+            {
+                "name": "Rag",
+                "components": [
+                    {
+                        "name": "Hemp",
+                        "amount": 15
+                    },
+                    {
+                        "name": "Plant Root",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "name": "Cloth",
+                "components": [
+                    {
+                        "name": "Rag",
+                        "amount": 1
+                    },
+                    {
+                        "name": "Hemp Bast",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "name": "Plastic",
+                "components": [
+                    {
+                        "name": "Resin",
+                        "amount": 8
+                    },
+                    {
+                        "name": "Potassium Nitrate",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Cloth",
+                        "amount": 1
+                    },
+                    {
+                        "name": "Hemp Stem",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "name": "Nylon Cloth",
+                "components": [
+                    {
+                        "name": "Flax Leaf",
+                        "amount": 3
+                    },
+                    {
+                        "name": "Flax Petal",
+                        "amount": 1
+                    },
+                    {
+                        "name": "Cypress Leaf",
+                        "amount": 5
+                    }
+                ]
+            },
+            {
+                "name": "Polyester Cloth",
+                "components": [
+                    {
+                        "name": "Jute Leaf",
+                        "amount": 3
+                    },
+                    {
+                        "name": "Flax Leaf",
+                        "amount": 3
+                    },
+                    {
+                        "name": "Broadleaf",
+                        "amount": 5
+                    },
+                    {
+                        "name": "Jute Stem",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "name": "Leather",
+                "components": [
+                    {
+                        "name": "Hide",
+                        "amount": 1
+                    },
+                    {
+                        "name": "Potassium Nitrate",
+                        "amount": 3
+                    },
+                    {
+                        "name": "Tape",
+                        "amount": 1
+                    },
+                    {
+                        "name": "Jute Leaf",
+                        "amount": 3
+                    }
+                ]
+            },
+            {
+                "name": "Flannel",
+                "components": [
+                    {
+                        "name": "Sisal Leaf",
+                        "amount": 3
+                    },
+                    {
+                        "name": "Kenaf Bast",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Seaweed Leaf",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Rugged Tail",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Fowl Feather",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "name": "Sewing Thread",
+                "components": [
+                    {
+                        "name": "Sisal Leaf",
+                        "amount": 3
+                    },
+                    {
+                        "name": "Kenaf Bast",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Fowl Feather",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Pearl",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Wool",
+                        "amount": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fiber Cloth",
+                "components": [
+                    {
+                        "name": "Nettle Leaf",
+                        "amount": 4
+                    },
+                    {
+                        "name": "Castor Bast",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Sisal Leaf",
+                        "amount": 4
+                    },
+                    {
+                        "name": "Flax Leaf",
+                        "amount": 4
+                    },
+                    {
+                        "name": "Fowl Feather",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "name": "Fiberglass+",
+                "components": [
+                    {
+                        "name": "Glass",
+                        "amount": 1
+                    },
+                    {
+                        "name": "Steel",
+                        "amount": 1
+                    },
+                    {
+                        "name": "Castor Bast",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Polyester Cloth",
+                        "amount": 1
+                    },
+                    {
+                        "name": "Fowl Feather",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "name": "Flannel Cloth",
+                "components": [
+                    {
+                        "name": "Hops",
+                        "amount": 4
+                    },
+                    {
+                        "name": "Nanmu",
+                        "amount": 15
+                    },
+                    {
+                        "name": "Hide",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Flannel",
+                        "amount": 1
+                    },
+                    {
+                        "name": "Nylon Cloth",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "name": "Polyamide Fabric",
+                "components": [
+                    {
+                        "name": "Kendir",
+                        "amount": 4
+                    },
+                    {
+                        "name": "Scale",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Elm Leaves",
+                        "amount": 15
+                    },
+                    {
+                        "name": "Dogbane Stalk",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "name": "Silica Gel",
+                "components": [
+                    {
+                        "name": "Pinecone",
+                        "amount": 8
+                    },
+                    {
+                        "name": "Mallow Stalk",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Fowl Feather",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Fiber Cloth",
+                        "amount": 1
+                    },
+                    {
+                        "name": "Nylon Cloth",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "name": "Blended Material",
+                "components": [
+                    {
+                        "name": "Kendir",
+                        "amount": 4
+                    },
+                    {
+                        "name": "Scale",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Elm Bark",
+                        "amount": 8
+                    },
+                    {
+                        "name": "Mallow Stalk",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "name": "Plain Fabric",
+                "components": [
+                    {
+                        "name": "Bugbane Stem",
+                        "amount": 3
+                    },
+                    {
+                        "name": "Seaweed Leaf",
+                        "amount": 3
+                    },
+                    {
+                        "name": "Beast Antler",
+                        "amount": 3
+                    },
+                    {
+                        "name": "Volcanic Rock",
+                        "amount": 11
+                    }
+                ]
+            },
+            {
+                "name": "Nanofiber",
+                "components": [
+                    {
+                        "name": "Bugbane Stem",
+                        "amount": 3
+                    },
+                    {
+                        "name": "Camphor Leaf",
+                        "amount": 12
+                    },
+                    {
+                        "name": "Wood Ash",
+                        "amount": 12
+                    },
+                    {
+                        "name": "Dorsal Fin",
+                        "amount": 6
+                    },
+                    {
+                        "name": "Aramid Fiber",
+                        "amount": 2
+                    }
+                ]
+            },
+            {
+                "name": "Coated Fabric",
+                "components": [
+                    {
+                        "name": "Phosphorite Ore",
+                        "amount": 14
+                    },
+                    {
+                        "name": "Urtica Leaf",
+                        "amount": 8
+                    },
+                    {
+                        "name": "Volcanic Ash",
+                        "amount": 8
+                    },
+                    {
+                        "name": "Soft Hide",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Bone Spur",
+                        "amount": 8
+                    }
+                ]
+            },
+            {
+                "name": "Electrospun Thread",
+                "components": [
+                    {
+                        "name": "Phosphorite Ore",
+                        "amount": 12
+                    },
+                    {
+                        "name": "Urtica Stem",
+                        "amount": 4
+                    },
+                    {
+                        "name": "Tentacle",
+                        "amount": 4
+                    }
+                ]
+            },
+            {
+                "name": "Coral Fleece",
+                "components": [
+                    {
+                        "name": "Cerussite",
+                        "amount": 14
+                    },
+                    {
+                        "name": "Trema Dielsiana",
+                        "amount": 8
+                    },
+                    {
+                        "name": "Venomous Bee Stinger",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Soft Shell",
+                        "amount": 8
+                    }
+                ]
+            },
+            {
+                "name": "Bionic Plate",
+                "components": [
+                    {
+                        "name": "Cerussite",
+                        "amount": 12
+                    },
+                    {
+                        "name": "Trema Dielsiana Seed",
+                        "amount": 4
+                    },
+                    {
+                        "name": "Tough Pincher",
+                        "amount": 4
+                    },
+                    {
+                        "name": "Wood Ash",
+                        "amount": 13
+                    }
+                ]
+            },
+            {
+                "name": "Acacia Cloth",
+                "components": [
+                    {
+                        "name": "Manganese Ore",
+                        "amount": 14
+                    },
+                    {
+                        "name": "Acacia",
+                        "amount": 8
+                    },
+                    {
+                        "name": "Flexible Silk Cocoon",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Tentacle",
+                        "amount": 8
+                    },
+                    {
+                        "name": "Gray Rabbit Fur",
+                        "amount": 8
+                    }
+                ]
+            },
+            {
+                "name": "Spandex",
+                "components": [
+                    {
+                        "name": "Wutong Wood",
+                        "amount": 24
+                    },
+                    {
+                        "name": "Acacia Stem",
+                        "amount": 4
+                    },
+                    {
+                        "name": "Poison Gland",
+                        "amount": 4
+                    },
+                    {
+                        "name": "Wood Ash",
+                        "amount": 13
+                    }
+                ]
+            },
+            {
+                "name": "China-hemp Cloth",
+                "components": [
+                    {
+                        "name": "Mahogany",
+                        "amount": 28
+                    },
+                    {
+                        "name": "China-hemp Leaf",
+                        "amount": 8
+                    },
+                    {
+                        "name": "Duvernoy's Gland",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Barbs",
+                        "amount": 8
+                    },
+                    {
+                        "name": "Gray Rabbit Fur",
+                        "amount": 8
+                    }
+                ]
+            },
+            {
+                "name": "Polyethylene Fiber",
+                "components": [
+                    {
+                        "name": "China-hemp Leaf",
+                        "amount": 7
+                    },
+                    {
+                        "name": "Peach",
+                        "amount": 13
+                    },
+                    {
+                        "name": "Sharp Fang",
+                        "amount": 4
+                    },
+                    {
+                        "name": "Volcanic Ash",
+                        "amount": 7
+                    }
+                ]
+            },
+            {
+                "name": "Sea Sponge",
+                "components": [
+                    {
+                        "name": "Red Coral",
+                        "amount": 28
+                    },
+                    {
+                        "name": "Macroalgae Leaf",
+                        "amount": 8
+                    },
+                    {
+                        "name": "Ammonite Fossil",
+                        "amount": 2
+                    },
+                    {
+                        "name": "Sucking Disc",
+                        "amount": 8
+                    },
+                    {
+                        "name": "Gray Rabbit Fur",
+                        "amount": 8
+                    }
+                ]
+            },
+            {
+                "name": "Polymer Fiber",
+                "components": [
+                    {
+                        "name": "Macroalgae Leaf",
+                        "amount": 8
+                    },
+                    {
+                        "name": "Bubbly Coral",
+                        "amount": 15
+                    },
+                    {
+                        "name": "Ink Sack",
+                        "amount": 4
+                    },
+                    {
+                        "name": "Volcanic Ash",
+                        "amount": 8
+                    }
+                ]
+            }
+        ]
+    },
     "food": [
         {
             "gather": [

@@ -1,0 +1,84 @@
+<CraftingScreen>:
+    id: main_win
+    orientation: "vertical"
+
+    ScreenManager:
+        id: scrn_mngr
+
+        Screen:
+            id: home_scrn
+            name: "home_scrn"
+
+            MDBoxLayout:
+                orientation: "vertical"
+                spacing: 50
+                padding: 50, 50
+
+                ElevatedCard:
+                    orientation: "vertical"
+                    padding: 50, 50
+                    spacing: 20
+                    on_release:
+                        root.goto_weapon_list()
+
+                    MDLabel:
+                        text: "Weapon Workables"
+                        halign: "center"
+                        font_style: "H2"
+
+                ElevatedCard:
+                    orientation: "vertical"
+                    padding: 50, 50
+                    spacing: 20
+                    on_release:
+                        root.goto_armor_list()
+
+                    MDLabel:
+                        text: "Armor Workables"
+                        halign: "center"
+                        font_style: "H2"
+
+        Screen:
+            id: result_scrn
+            name: "result_scrn"
+
+            MDBoxLayout:
+                spacing: 20
+                orientation: 'vertical'
+
+                MDBoxLayout:
+                    padding: 50, 0
+                    adaptive_height: True
+                    MDTextField:
+                        id: search_fld
+                        hint_text: "Search"
+                        mode: "rectangle"
+                        icon_left: "magnify"
+                        on_text:
+                            root.on_search(self.text)
+
+                ScrollView:
+                    MDGridLayout:
+                        id: item_list
+                        cols: 1
+                        spacing: 50
+                        padding: 50, 50
+                        adaptive_height: True
+
+                MDBoxLayout:
+                    padding: 50, 0
+                    adaptive_height: True
+                    MDRaisedButton:
+                        text: "Return"
+                        size_hint_x: 1
+                        on_release:
+                            root.goto_home_scrn()
+
+        Screen:
+            id: detail_scrn
+            name: "detail_scrn"
+
+            MDBoxLayout:
+                id: detail_card
+                orientation: "vertical"
+                padding: 50, main_win.size[1]/4
