@@ -46,6 +46,8 @@
                     orientation: "vertical"
                     padding: 50, 50
                     spacing: 20
+                    on_release:
+                        root.goto_profit_screen()
 
                     MDLabel:
                         text: "Profit Calculator"
@@ -61,8 +63,8 @@
             name: "food_scrn"
 
         MDScreen:
-            id: calculator_scrn
-            name: "calculator_scrn"
+            id: profit_scrn
+            name: "profit_scrn"
 
     MDBoxLayout:
         size_hint_y: None
